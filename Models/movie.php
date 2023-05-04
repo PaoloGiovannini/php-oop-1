@@ -12,6 +12,6 @@ class Movie{
         $this->descrizione = $descrizione;
     }
     public function getInformazioni(){
-        return 'Il titolo è: ' . $this->titolo . ', è uscito nel: ' . $this->anno . ', genere: ' . $this ->genere . ', trama: ' . $this -> descrizione . '<br>';
+        return 'Il titolo è: ' . $this->titolo . ', è uscito nel: ' . $this->anno . ', genere: ' . $this ->genere . ', trama: ' . $this -> descrizione ;
     }
 }
